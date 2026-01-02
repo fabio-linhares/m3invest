@@ -1,0 +1,21 @@
+name: m3invest
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - fastapi
+      - uvicorn[standard]
+      - pydantic
+      - pydantic-settings
+      - sqlalchemy
+      - alembic
+      - passlib[bcrypt]
+      - python-jose[cryptography]
+      - python-multipart
+      - jinja2
+      - httpx
+      - pytest
+      - ruff
+      - pre-commit
